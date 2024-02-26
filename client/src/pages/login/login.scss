@@ -1,0 +1,141 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6de9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.loginWrapper {
+    width: 70%;
+    height: 80%;
+    align-items: start;
+    display: flex;
+    border-radius: 5px;
+    background-color: #e1f7fa;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+
+}
+.coverlogo{
+    width: 60%;
+    height: 30%;
+    margin-bottom: 20px;
+}
+.tagline{
+    color: rgb(28, 88, 104);
+    font-size: 20px;
+    justify-content: left;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+  
+}
+
+.loginLeft
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.loginRight
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginRight form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginLogo {
+    font-size: 30px;
+    font-weight: 800;
+    color:#00DBDE;   
+    margin-top: -30px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.loginBox {
+    height: 100%;
+    width: 40%;
+ border-radius: 5px 0px 0px 5px;
+    background-color: rgb(7, 4, 50);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.loginBox label{
+    margin-bottom: 10px;
+    text-align: start;
+    color: rgb(248, 238, 238);
+    width: 100%;
+    font-size: 14px;
+}
+
+.loginInput {
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {
+
+    width: 245px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0fa94c;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.dontAccount{
+    color: rgb(186, 233, 235);
+}
+
+/* Add this CSS to your login.css file or a separate CSS file */
+.password-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px; /* Adjust this value as needed to position the icon */
+  cursor: pointer;
+}
+
+.password-toggle.visible {
+  display: block;
+}
+
+.password-toggle.hidden {
+  display: none;
+}

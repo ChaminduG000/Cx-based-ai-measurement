@@ -1,0 +1,122 @@
+.reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .reg-wrapper {
+    border-radius: 5px;
+    height: 550px;
+    width: 80%;
+    background-color: rgb(5, 113, 255);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+  }
+  
+  .coverlogoreg {
+    width: 60%;
+    height: 98%;
+    margin: 5px 5px 5px 5px;
+    justify-content: right;
+  }
+    .coverlogo {
+      width: 60%;
+      height: 30%;
+      margin-bottom: 20px;
+      justify-content: right;
+    }
+  
+  .regbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(7, 4, 50);
+    width: 40%;
+    height: 100%;
+  }
+  
+  .reg-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -20px;
+  }
+  h3{
+    margin-bottom: 10px;
+  }
+  .reg-left form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .reg-right {
+    background-color: rgb(134, 246, 248);
+    background-image: url('');
+    background-size: cover;
+    /* This will cover the entire element with the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-position: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+  }
+  
+  .reg h3 {
+    color: #00dbde;
+    font-weight: 30px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  .regbox label {
+    margin-bottom: 10px;
+    text-align: start;
+    color: rgb(237, 233, 233);
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .regInput {
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .sinBtn {
+    width: 245px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0fa94c;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  
+  }
+  Link{
+    margin-top: 10px;
+  }
